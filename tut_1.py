@@ -123,3 +123,10 @@ Tasks:
 5. Make a list of 3 dictionaries with name, age, and city as keys and print it.
   * Access the age key and print the sum of ages of all dictionaries in the list.
 """
+# Solutions:
+# Task 4 :
+persons = [{"name": "Alice", "age": 30}, {"name": "Bob", "age": 25}, 5]
+print(persons[2])
+dict_1 = [{"name": "Alice", "age": 30}, {"name": "Bob", "age": 25}, {"name": "Charlie", "age": 35}]
+sum = dict_1[0]['age'] + dict_1[1]['age'] + dict_1[2]['age']
+print('Sum of ages:', sum, 'years')
