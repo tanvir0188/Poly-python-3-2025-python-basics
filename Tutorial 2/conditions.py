@@ -43,9 +43,9 @@ marks = 72
 if marks >= 90:
     print("Grade: A")
 elif marks >= 75:
-    print("Grade: B")  # This will run
+    print("Grade: B")  
 elif marks >= 50:
-    print("Grade: C")
+    print("Grade: C") # This will run
 else:
     print("Grade: F")
 
