@@ -3,17 +3,17 @@
 #You have to create the class using a constructor. Initiate it and set values to the attributes.
 
 
-class Family:
+#class Family:
 
-  def __int__(self, my_name, father_name, mother_name, sister_name, brother_name):
-      self.my_name=my_name
-      self.father_name=father_name
-      self.mother_name=mother_name
-      self.sister_name=sister_name
-      self.brother_name=brother_name
+  #def __int__(self, my_name, father_name, mother_name, sister_name, brother_name):
+      #self.my_name=my_name
+      #self.father_name=father_name
+      #self.mother_name=mother_name
+      #self.sister_name=sister_name
+      #self.brother_name=brother_name
 
-family = Family('Maria', 'Borhan', 'Maya', 'Rabeya', 'Mohin')
-print(f'family_name:{my.my_name}, father_name:{father.father_name}, family_name:{mother.mother_name}, family_name:{sister.sister_name}, family_name:{brother.brother_name}')
+#family = Family('Maria', 'Borhan', 'Maya', 'Rabeya', 'Mohin')
+#print(f'family_name:{my.my_name}, father_name:{father.father_name}, family_name:{mother.mother_name}, family_name:{sister.sister_name}, family_name:{brother.brother_name}')
 
 
 
@@ -50,3 +50,14 @@ class Square:
 square= Square(4)
 print(f'square side: {square.side}, square area: {square.area()}, square perimeter: {square.perimeter()}')
 
+class Triangle:
+    def __init__(self, base, height, hypotenuse):
+        self.base= base
+        self.height= height
+        self.hypotenuse= hypotenuse
+    def area(self):
+        return 0.5*self.base*self.height
+    def perimeter(self):
+        return self.base+self.height+self.hypotenuse
+triangle= Triangle(2,3,4)
+print(f'Triangle area: {triangle.area}, Triangle perimeter: {triangle.perimeter}')
