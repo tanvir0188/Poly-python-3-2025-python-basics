@@ -1,4 +1,4 @@
-# some animal:
+# some animal:practice 
 class Dog():
     species="canis familiaris"               #class attribute
     def __init__(self,name,age,color):
