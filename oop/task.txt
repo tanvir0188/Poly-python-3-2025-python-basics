@@ -1,0 +1,15 @@
+Task 1:
+Create a Family object. It should have attribute such as my_name, father_name, mother_name, sister_name, brother_name
+You have to create the class using a constructor. Initiate it and set values to the attributes.
+
+
+Task 2:
+Create a rectangle, a triangle and a square object.
+Initialize them. Find out the area and perimeter of each object.
+
+for example,
+
+a rectangle has length and width. it so the rectangle object should take  Rectangle(2, 4)
+the area should be area = 2*4. But you must do this by accessing the attributes of the created object. Similarly Do all of them.
+
+NB: If you can use class method then do it. Otherwise you can use constructor only
