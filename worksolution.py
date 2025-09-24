@@ -99,7 +99,7 @@ class Triangle():
     def perimeter(self):
         return self.base+self.height+self.hypotenuse
 triagle=Triangle(2,4,5) 
-print(f'Triangle area:{triagle.area},Triangle perimeter:{triagle.perimeter}')  
+print(f'Triangle area:{triagle.area()},Triangle perimeter:{triagle.perimeter()}')  
 
 
 
@@ -111,7 +111,8 @@ class Square():
         return self.side*self.side
     def perimeter(self):
         return 4*self.side
-Square=Square(6)
-print(f'Square area:{Square.area},Square perimeter:{Square.perimeter}')                
+square=Square(6)
+print(f'Square area:{square.area()},Square perimeter:{square.perimeter()}')                
     
   
+
