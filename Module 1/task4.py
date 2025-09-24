@@ -58,3 +58,15 @@ class Triangle:
 
     def area(self):
         return 0.5 * self.base * self.height
+
+    class Triangle:
+    def __init__(self, base, height, hypotenuse):
+        self.base= base
+        self.height= height
+        self.hypotenuse= hypotenuse
+    def area(self):
+        return 0.5*self.base*self.height
+    def perimeter(self):
+        return self.base+self.height+self.hypotenuse
+triangle= Triangle(2,3,4)
+print(f'Triangle area: {triangle.area}, Triangle perimeter: {triangle.perimeter}')
