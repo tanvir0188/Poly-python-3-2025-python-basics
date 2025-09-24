@@ -9,7 +9,7 @@ class Square:
         print(f"Square Perimeter : {4*self.a}")
 
     def __str__(self):
-        return "Square"
+        return "  Square  "
 s1=Square(10)
 s1.area()
 s1.perimeter()

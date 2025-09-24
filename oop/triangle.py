@@ -12,7 +12,7 @@ class Triangle:
         print(f"Triangle Perimeter : {self.base+self.height+hypotenuse:.2f}")
 
     def __str__(self):
-        return f"Triangle"
+        return f"    Triangle   "
     
 
 t1=Triangle(10,20)

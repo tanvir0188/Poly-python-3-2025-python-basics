@@ -9,7 +9,7 @@ class Rectangle:
     def Perimeter(self):
         print(f"Rectangle Perimeter : {2 * (self.Length+self.width)}")
     def __str__(self):
-        return f"Rectangle"
+        return f"  Rectangle  "
 
 r=Rectangle(10,20)
 r.area()
