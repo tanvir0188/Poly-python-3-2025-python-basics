@@ -37,7 +37,7 @@ class Family():
         self.brother_name=brother_name
         self.sister_name=sister_name
         
-f1=Family("Yousuf miah","Tukku miah","Rehena begum","Ibrahim miah","asma akter")
+f1=Family("Yousuf miah","ffffffff","mmmmmmmm","bbbbbbbb","ssssssss")
 print(f"my name is : {f1.my_name} . my father name is : {f1.father_name} . my mother name is : {f1.mother_name} .my brother name is  : {f1.brother_name} . my sister name is {f1.sister_name} ." )
 
 #Task 2:
@@ -56,7 +56,8 @@ class Square():
         self.base=base
     def area(self):
         return self.base**2
-    
+    def perimeter(self):
+        return 4*self.base
  
 class Rectangle():
     def __init__ (self,width,hight):
@@ -64,19 +65,23 @@ class Rectangle():
         self.hight=hight
     def area(self):
         return  self.width * self.hight
-    
+    def perimeter(self):
+        return 2*self.width+self.hight
 
 class Triangle():
-    def __init__ (self,base,hight):
-        self.base=base
-        self.hight=hight
+    def __init__ (self,a,b,c):
+        self.a=a
+        self.b=b
+        self.c=c
     def area(self):
-         return  0.5 * self.base * self.hight
+         return  0.5 * self.a * self.b
+    def perimeter(self):
+        return self.a+self.b+self.c
      
 square=Square(7)
 rectangle=Rectangle(5,7)
-triangle=Triangle(5,7)
+triangle=Triangle(5,7,6)
 
-print ("this squqre area is : ",square.area())
-print ("this rectangle area is : ",rectangle.area())
-print ("this triangle area is : ",triangle.area())
+print (f"this squqre area is : {square.area()}  and perimeter is : {square.perimeter()}")
+print (f"this rectangle area is : {rectangle.area()} and perimeter is : {rectangle.perimeter()} .")
+print (f"this triangle area is : {triangle.area()} and perimeter is : {triangle.perimeter()}.")
