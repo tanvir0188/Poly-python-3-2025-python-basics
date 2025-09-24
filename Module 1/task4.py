@@ -59,7 +59,7 @@ class Triangle:
     def area(self):
         return 0.5 * self.base * self.height
 
-    class Triangle:
+class Triangle:
     def __init__(self, base, height, hypotenuse):
         self.base= base
         self.height= height
