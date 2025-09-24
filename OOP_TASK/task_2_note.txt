@@ -1,0 +1,15 @@
+
+## Rectangle
+area = width + height
+perimeter = 2 * (width + height)
+
+
+## Square 
+area = side^2
+perimeter = 4 * side
+
+
+## Right-angled Triangle
+Area = 1/2 * base * height
+hypotenuse = √((base^2) + height^2)
+Perimeter = base + height + hypotenuse

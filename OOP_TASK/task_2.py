@@ -6,7 +6,8 @@ class Rectangle:
         self.height = height
 
     def area(self):
-        return self.width * self.height
+        print("Area of Rectangle:", self.width * self.height)
+        # return self.width * self.height
 
     def perimeter(self):
         return 2 * (self.width + self.height)
@@ -36,8 +37,10 @@ class Square:
         return 4 * self.side
 
   
+  
 rectangle = Rectangle(4, 5)
-print("Rectangle Area:", rectangle.area())
+# print("Rectangle Area:", rectangle.area())
+rectangle.area()
 print("Rectangle Perimeter:", rectangle.perimeter())
 
 print("--------------------")
