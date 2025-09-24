@@ -51,13 +51,6 @@ square= Square(4)
 print(f'square side: {square.side}, square area: {square.area()}, square perimeter: {square.perimeter()}')
 
 
-class Triangle:
-    def __init__(self, base, height):
-        self.base = base
-        self.height = height
-
-    def area(self):
-        return 0.5 * self.base * self.height
 
 class Triangle:
     def __init__(self, base, height, hypotenuse):
