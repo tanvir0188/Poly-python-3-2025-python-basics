@@ -1,4 +1,4 @@
-# some animal:
+# some animal:practice 
 class Dog():
     species="canis familiaris"               #class attribute
     def __init__(self,name,age,color):
@@ -82,6 +82,6 @@ square=Square(7)
 rectangle=Rectangle(5,7)
 triangle=Triangle(5,7,6)
 
-print (f"this squqre area is : {square.area()}  and perimeter is : {square.perimeter()}")
-print (f"this rectangle area is : {rectangle.area()} and perimeter is : {rectangle.perimeter()} .")
-print (f"this triangle area is : {triangle.area()} and perimeter is : {triangle.perimeter()}.")
+print ("this squqre area is : ",square.area())
+print ("this rectangle area is : ",rectangle.area())
+print ("this triangle area is : ",triangle.area())
