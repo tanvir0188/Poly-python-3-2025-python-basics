@@ -71,3 +71,18 @@ vm.add_bulk_item([item1,item2,item3])
 vm.show_items()
 vm.buy_item(2,25)
 vm.buy_item(2,25)
+
+
+
+
+#output
+# item available
+# 1.chips -$ 20 
+# 2.boun -$ 10
+# 3.bicecut -$ 15
+# 4.chocklet -$ 5
+# your selected : boun -$ 10
+# despensing boun $ 10 you pay 25. change $ : 15
+# your selected : boun -$ 10
+# despensing boun $ 10 you pay 25. change $ : 15
+# boun is out of stock
