@@ -1,0 +1,30 @@
+🔹 Task 1: Validate Item Creation
+•	Item.name -> jodi empty string hoy tahole error show korte hobe.
+•	Item.price -> jodi positive number na hoy tahole error show korte hobe.
+•	Item.quantity -> jodi invalid (negative or non-integer) hoy tahole error show hobe.
+
+________________________________________
+
+
+🔹 Task 2: Validate Money in Buy
+•	Money insert korar age check kora hobe je seta positive number kinaa.
+•	Machine e jodi kono item na thake tahole show korte hobe "The vending machine is empty."
+•	Jodi wrong item number select kora hoy tahole error message dibe.
+•	Jodi insert kora taka item er price er cheye kom hoy tahole "Insufficient funds" message dibe.
+
+________________________________________
+
+
+🔹 Task 3: Remove Sold Items
+•	Jodi kono item er stock 0 hoye jay tahole automatic machine theke remove hoye jabe.
+•	Extra message show korbo jee "{item} is now sold out and removed from the machine."
+
+________________________________________
+
+
+🔹 Task 4: Add Stock Count
+•	Item class e quantity property add korte hobe.
+•	add_item method e jodi same item (same name + same price) already thake tahole new item create na kore, existing item er quantity barabe.
+•	buy_item method stock decrease kore, r stock 0 hole remove kore dibe.
+•	show_items e prottek item er name, price er shathe stock count show korbe.
+
