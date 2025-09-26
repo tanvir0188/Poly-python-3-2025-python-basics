@@ -3,7 +3,8 @@
 •	Item.price -> jodi positive number na hoy tahole error show korte hobe.
 •	Item.quantity -> jodi invalid (negative or non-integer) hoy tahole error show hobe.
 
-________________________________________
+
+-----------------------------------------------------
 
 
 🔹 Task 2: Validate Money in Buy
@@ -12,14 +13,16 @@ ________________________________________
 •	Jodi wrong item number select kora hoy tahole error message dibe.
 •	Jodi insert kora taka item er price er cheye kom hoy tahole "Insufficient funds" message dibe.
 
-________________________________________
+
+-----------------------------------------------------
 
 
 🔹 Task 3: Remove Sold Items
 •	Jodi kono item er stock 0 hoye jay tahole automatic machine theke remove hoye jabe.
 •	Extra message show korbo jee "{item} is now sold out and removed from the machine."
 
-________________________________________
+
+-----------------------------------------------------
 
 
 🔹 Task 4: Add Stock Count
