@@ -1,0 +1,48 @@
+Task 1: Validate Item Creation
+
+Goal: Prevent creating items with invalid data.
+
+What to do:
+
+Ensure Item.name is a non-empty string.
+
+Ensure Item.price is a positive float.
+
+Task 2: Validate Money in Buy
+
+Goal: Make the buy_item method more robust.
+
+What to do:
+
+Check that the money inserted is a positive number.
+
+Handle cases where the machine is out of items.
+
+Task 3: Remove Sold Items
+
+Goal: Once an item is bought, remove it from the vending machine.
+
+
+Task 4: Add Stock Count
+
+Goal: Keep track of how many units of each item are available.
+
+What to do:
+
+Modify Item to have quantity.
+
+Update add_item and buy_item accordingly.
+For example 
+class Item:
+  def __init__(self, name, price, quantity=1):
+    self.name = name
+    self.price = price
+    self.quantity = quantity
+
+# In buy_item:
+if item.quantity <= 0:
+  print(f"{item.name} is out of stock.")
+  return
+item.quantity -= 1
+if item.quantity == 0:
+  self.items.pop(item_number - 1)
