@@ -1,12 +1,13 @@
 class Item:
     def __init__(self, name, price):
-        if not isinstance(name, str) or not name.strip():
+        if not isinstance(name, str) :
             print("Item name must be a non-empty string.")
-            return
+            return 
+        
 
         if not isinstance(price, (int, float)) or price <= 0:
-            print("Item price must be a positive number.")
-            return
+             print("Item price must be a positive number.")
+             return
 
         self.name = name.strip()
         self.price = float(price)
