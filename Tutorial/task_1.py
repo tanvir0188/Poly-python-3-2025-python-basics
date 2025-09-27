@@ -1,24 +1,20 @@
-class Family:
-    def __init__(self, my_name, my_age, father_name, father_age, mother_name, mother_age, sister_name, sister_age):
-        self.my_name = my_name
-        self.my_age = my_age
-        self.father_name = father_name
-        self.father_age = father_age
-        self.mother_name = mother_name
-        self.mother_age = mother_age
-        self.sister_name = sister_name
-        self.sister_age = sister_age
+class Item:
+    def __init__(self, name, price):
+        if not isinstance(name, str) or not name.strip():
+            print("Item name must be a non-empty string.")
+            return
+
+        if not isinstance(price, (int, float)) or price <= 0:
+            print("Item price must be a positive number.")
+            return
+
+        self.name = name.strip()
+        self.price = float(price)
 
 
-my_family = Family(
-    my_name="Jihad", my_age=21,
-    father_name="Babbul Hossen", father_age=45,
-    mother_name="Rawshanara", mother_age=37,
-    sister_name="Banna", sister_age=18
-)
-
-
-print("My name:", my_family.my_name, "Age:", my_family.my_age)
-print("Father:", my_family.father_name, "Age:", my_family.father_age)
-print("Mother:", my_family.mother_name, "Age:", my_family.mother_age)
-print("Sister:", my_family.sister_name, "Age:", my_family.sister_age)
+item1 = Item("cake ", 5.11)  
+item2 = Item("Chips", 2.3)
+item3 = Item("Chocolate", 2.15)  
+print(item1.name, item1.price)
+print(item2.name, item2.price)
+print(item3.name, item3.price)
